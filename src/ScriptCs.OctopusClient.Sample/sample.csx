@@ -1,4 +1,4 @@
-var octopus = Require<OctoClientPack>();
+var octopus = Require<OctopusClientPack>();
 var repo = octopus.GetRepository("http://server/octopusdeploy/api", "API-XXXXXXXXXXXXXXXXXXXXXXXXXXX");
 Console.WriteLine("Getting the current user...");
 var user = repo.Users.GetCurrent();

@@ -1,13 +1,13 @@
 <?xml version="1.0"?>
 <package >
   <metadata>
-    <id>ScriptCs.OctoClient</id>
+    <id>ScriptCs.OctopusClient</id>
     <version>$version$</version>
     <title>$title$</title>
     <authors>$author$</authors>
     <owners>$author$</owners>
-    <licenseUrl>https://github.com/alfhenrik/ScriptCs.OctoClient/master/LICENCE.md</licenseUrl>
-    <projectUrl>https://github.com/alfhenrik/ScriptCs.OctoClient</projectUrl>
+    <licenseUrl>https://github.com/alfhenrik/ScriptCs.OctopusClient/master/LICENCE.md</licenseUrl>
+    <projectUrl>https://github.com/alfhenrik/ScriptCs.OctopusClient</projectUrl>
     <iconUrl>http://www.gravatar.com/avatar/5c754f646971d8bc800b9d4057931938.png?s=120</iconUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>$description$</description>

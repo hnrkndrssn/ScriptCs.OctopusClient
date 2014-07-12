@@ -1,10 +1,9 @@
-﻿using System.Net;
+﻿using Octopus.Client;
 using ScriptCs.Contracts;
-using Octopus.Client;
 
-namespace ScriptCs.OctoClient
+namespace ScriptCs.OctopusClient
 {
-    public class OctoClientPack : IScriptPackContext
+    public class OctopusClientPack : IScriptPackContext
     {
         public OctopusRepository GetRepository(string hostUrl, string apiKey)
         {

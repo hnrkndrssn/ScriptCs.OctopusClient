@@ -1,13 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿
 using ScriptCs.Contracts;
 
-namespace ScriptCs.OctoClient
+namespace ScriptCs.OctopusClient
 {
-    public class ScriptPack : IScriptPack
+    public class OctopusClientScriptPack : IScriptPack
     {
         public void Initialize(IScriptPackSession session)
         {
@@ -24,15 +20,14 @@ namespace ScriptCs.OctoClient
             //ImportNamespace
             //This method can import namespaces for use in your scripts to help 
             //keep user's scripts clean and simple.
-            session.ImportNamespace("System.Net");
             session.ImportNamespace("Octopus.Client");
             session.ImportNamespace("ScriptCs.Contracts");
-            session.ImportNamespace("ScriptCs.OctoClient");
+            session.ImportNamespace("ScriptCs.OctopusClient");
         }
 
         public IScriptPackContext GetContext()
         {
-            return new OctoClientPack();
+            return new OctopusClientPack();
         }
 
         public void Terminate()
