@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>ScriptCs.OctoClient</id>
+    <version>$version$</version>
+    <title>$title$</title>
+    <authors>$author$</authors>
+    <owners>$author$</owners>
+    <licenseUrl>https://github.com/alfhenrik/ScriptCs.OctoClient/master/LICENCE.md</licenseUrl>
+    <projectUrl>https://github.com/alfhenrik/ScriptCs.OctoClient</projectUrl>
+    <iconUrl>http://www.gravatar.com/avatar/5c754f646971d8bc800b9d4057931938.png?s=120</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>$description$</description>
+    <copyright>Copyright 2014 Henrik Andersson</copyright>
+    <tags>scriptcs octopus deploy client</tags>
+  </metadata>
+</package>
