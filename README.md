@@ -5,7 +5,7 @@ ScriptCs.OctoClient
 This is an Octopus Client [Script Pack](https://github.com/scriptcs/scriptcs/wiki) for [scriptcs](https://github.com/scriptcs/scriptcs)
 
 ## Installation
-Install the NuGet package by running `scriptcs -install ScriptCs.OctopusClient`
+Install the NuGet package by running `scriptcs -install ScriptCs.OctopusClient -pre`
 
 ## Usage
 
