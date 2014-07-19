@@ -1,9 +1,13 @@
 ScriptCs.OctoClient
 ===================
 
-Octopus Client Script Pack for ScriptCs
+## About
+This is an Octopus Client [Script Pack](https://github.com/scriptcs/scriptcs/wiki) for [scriptcs](https://github.com/scriptcs/scriptcs)
 
-Example Usage:
+## Installation
+Install the NuGet package by running `scriptcs -install ScriptCs.OctopusClient`
+
+## Usage
 
 ``` csharp
 var octopus = Require<OctopusClientPack>();
@@ -21,7 +25,7 @@ foreach(var item in dashboard.Items)
 }
 ```
 
----
+## License
 
 The MIT License (MIT)
 
