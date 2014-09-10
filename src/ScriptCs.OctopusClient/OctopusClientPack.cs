@@ -10,7 +10,7 @@ namespace ScriptCs.OctopusClient
     {
         private IOctopusClient _client;
 
-        public OctopusRepository Initialise(string hostUrl, string apiKey)
+        public OctopusRepository Server(string hostUrl, string apiKey)
         {
             var endpoint = new OctopusServerEndpoint(hostUrl, apiKey);
             var repository = new OctopusRepository(endpoint);
